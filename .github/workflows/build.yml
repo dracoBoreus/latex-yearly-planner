@@ -2,6 +2,7 @@ name: "Build 2023"
 on:
   pull_request:
   push:
+  workflow_dispatch :
 jobs:
   build:
     runs-on: ubuntu-latest
